@@ -14,7 +14,7 @@
             <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
             <!--Ouput-->
-            <odometry_frame>odom</odometry_frame>
+            <odometry_frame>lidar</odometry_frame>
             <robot_base_frame>base_link</robot_base_frame>
 
             <publish_odom>true</publish_odom>

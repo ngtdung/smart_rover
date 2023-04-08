@@ -50,12 +50,12 @@ def generate_launch_description():
         actions=[
             Node(
                 package="controller_manager",
-                executable="spawner",
+                executable="spawner.py",
                 arguments=["diff_cont"],
             ),
             Node(
                 package="controller_manager",
-                executable="spawner",
+                executable="spawner.py",
                 arguments=["joint_broad"],
             )
         ],
